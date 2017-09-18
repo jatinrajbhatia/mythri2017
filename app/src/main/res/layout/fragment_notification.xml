@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="All notifications Caught up,You donot have any new notification.. :)"
+        android:text="All notifications Caught up,You don't have any new notification.. :)"
         android:gravity="center"
         android:layout_centerInParent="true"
         android:textColor="#117751"

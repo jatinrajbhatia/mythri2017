@@ -80,7 +80,7 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="367dp"
+            android:layout_width="330dp"
             android:layout_height="40dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/view_selector"
@@ -104,7 +104,7 @@
 
             <Button
                 android:onClick="btnGoRegister_Click"
-                android:layout_width="322dp"
+                android:layout_width="330dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="5dp"
                 android:gravity="center"

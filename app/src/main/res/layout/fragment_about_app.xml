@@ -147,21 +147,14 @@
                     android:textColor="#b92c2c"
                     />
 
-            </LinearLayout>
+            </LinearLayout>-->
             <View
                 android:id="@+id/SplitLine_hor3"
                 android:layout_width="match_parent"
                 android:layout_height= "3dp"
-                android:background="#b92c2c" />-->
+                android:background="#196" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Students:"
-                android:textSize="16sp"
-                android:textColor="#000"
-                android:paddingLeft="5dp"
-                android:layout_marginTop="10dp"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -187,6 +180,60 @@
                     />
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:background="@drawable/view_shape"
+
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/jrb"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jatin Bhatia\n(MCA-2015 Batch)"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:padding="5dp"
+                    android:textColor="#119"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:background="@drawable/view_shape"
+
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/chaudhary"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Saurabh Bharadwaj\n(MCA-2015 Batch)"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:padding="5dp"
+                    android:textColor="#119"
+                    />
+
+            </LinearLayout>
+
+
 
         </LinearLayout>
     </LinearLayout>

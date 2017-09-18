@@ -233,6 +233,7 @@ public class GamedetailActivity extends AppCompatActivity {
                 studentOneName.setText("Pratiksha(EE/4th yr)");
                 studentTwoName.setText("Vivek Sharma(IT/4th yr)");
                 facultyName.setText("Mr. Nirmal Kumar Agarwal\nAP-EE");
+                facualtyCoordinatorTwo.setVisibility(View.GONE);
 
                 studentOneContact.setText("8174890719");
                 studentTwoContact.setText("9643014226");
@@ -279,9 +280,10 @@ public class GamedetailActivity extends AppCompatActivity {
                 title.setText(data);
                 studentOneName.setText("Gaurav Kumar(MCA/3rd yr)");
                 studentTwoName.setText("Rishabh Gupta(IT/4th yr)");
+                studentCoordinatorThree.setVisibility(View.GONE);
 
                 facultyName.setText("Mr. Ankur Garg \nAP-Hum");
-                facultyImage.setImageResource(R.drawable.girish_sir_ped);
+                //facultyImage.setImageResource(R.drawable.girish_sir_ped);
                 studentOneImage.setImageResource(R.drawable.gaurav_kumar);
                 studentTwoImage.setImageResource(R.drawable.rishabh_tug);
 
@@ -400,7 +402,7 @@ public class GamedetailActivity extends AppCompatActivity {
                 studentOneName.setText("ARPIT GUPTA(ME/4th yr)");
                 studentTwoName.setText("Sakshi Gupta(CS/4th yr)");
                 studentThreeName.setText("Shreya Singh(EC/4th yr)");
-                facultyName.setText("Mr.Sukhendra Singh\nAP-IT");
+                facultyName.setText("Mr. Sukhendra Singh\nAP-IT");
                 studentOneContact.setText("9818798956");
                 studentTwoContact.setText("9868150252");
                 studentThreeContact.setText("8287013429");
@@ -441,7 +443,7 @@ public class GamedetailActivity extends AppCompatActivity {
                 //facultyImage.setImageResource(R.drawable.);
                  type.setText("None");
                 venue.setText("Outdoor- Volleyball Court");
-                studentCoordinatorThree.setVisibility(View.GONE);
+
                 facualtyCoordinatorTwo.setVisibility(View.GONE);
 
             }
@@ -496,57 +498,57 @@ public class GamedetailActivity extends AppCompatActivity {
             }
             break;
 
-//            case "Shot Put": {
-//                title.setText(data);
-//                studentOneName.setText("Ruchir Verma(CS/4th yr)");
-//                studentTwoName.setText("Aman Sharma (CS/4th yr)");
-//                facultyName.setText("Mr.Virendara Kumar Verma\nAP-MT");
-//                facultyName2.setText("Mrs.Shafali Bhakshi\nAP-CE");
-//                studentOneContact.setText("9454847294");
-//                studentTwoContact.setText("9015936544");
-//                studentOneImage.setImageResource(R.drawable.ruchir_ath);
-//                String shotput_rules="<HTML>\n" +
-//                        "<BODY>\n" +
-//                        "<p>Competitors take their throw from inside a (7 feet) in diameter, with a toe\n" +
-//                        "\n" +
-//                        "board approximately 4&quot; high at the front of the circle. The shot must land\n" +
-//                        "\n" +
-//                        "within an angle of approximately 30 degrees. The athlete must rest the\n" +
-//                        "\n" +
-//                        "shot in between the neck and shoulder and keep it tight to the neck\n" +
-//                        "\n" +
-//                        "while throwing. At the end of the throw, the thrower must push the\n" +
-//                        "\n" +
-//                        "throwing arm straight with the thumb pointing down.<br><br>\n" +
-//                        "\n" +
-//                        "<b>Fouls:</b><br><br>\n" +
-//                        "\n" +
-//                        "<b>1.</b>The shot putters must enter and leave the circle from the rear half of\n" +
-//                        "\n" +
-//                        "the circle, or a foul is called.<br>\n" +
-//                        "\n" +
-//                        "<b>2.</b>Letting some article of clothing touch the top of the toeboard or\n" +
-//                        "\n" +
-//                        "outside the circle, and/or the shot falling outside of the borders to the\n" +
-//                        "\n" +
-//                        "left and the right.<br>\n" +
-//                        "\n" +
-//                        "<b>3.</b>The distance thrown is measured from the front of the circle to where\n" +
-//                        "\n" +
-//                        "the shot lands at its nearest disturbance of the soil.</p><br>\n" +
-//                        "</BODY></HTML>";
-//                rules.loadData(shotput_rules,"text/html", "UTF-8");
+            case "Shot Put": {
+                title.setText(data);
+                studentOneName.setText("Ruchir Verma(CS/4th yr)");
+                studentTwoName.setText("Aman Sharma (CS/4th yr)");
+                facultyName.setText("Mr.Virendara Kumar Verma\nAP-MT");
+                facultyName2.setText("Mrs.Shafali Bhakshi\nAP-CE");
+                studentOneContact.setText("9454847294");
+                studentTwoContact.setText("9015936544");
+                //studentOneImage.setImageResource(R.drawable.ruchir_ath);
+                String shotput_rules="<HTML>\n" +
+                        "<BODY>\n" +
+                        "<p>Competitors take their throw from inside a (7 feet) in diameter, with a toe\n" +
+                        "\n" +
+                        "board approximately 4&quot; high at the front of the circle. The shot must land\n" +
+                        "\n" +
+                        "within an angle of approximately 30 degrees. The athlete must rest the\n" +
+                        "\n" +
+                        "shot in between the neck and shoulder and keep it tight to the neck\n" +
+                        "\n" +
+                        "while throwing. At the end of the throw, the thrower must push the\n" +
+                        "\n" +
+                        "throwing arm straight with the thumb pointing down.<br><br>\n" +
+                        "\n" +
+                        "<b>Fouls:</b><br><br>\n" +
+                        "\n" +
+                        "<b>1.</b>The shot putters must enter and leave the circle from the rear half of\n" +
+                        "\n" +
+                        "the circle, or a foul is called.<br>\n" +
+                        "\n" +
+                        "<b>2.</b>Letting some article of clothing touch the top of the toeboard or\n" +
+                        "\n" +
+                        "outside the circle, and/or the shot falling outside of the borders to the\n" +
+                        "\n" +
+                        "left and the right.<br>\n" +
+                        "\n" +
+                        "<b>3.</b>The distance thrown is measured from the front of the circle to where\n" +
+                        "\n" +
+                        "the shot lands at its nearest disturbance of the soil.</p><br>\n" +
+                        "</BODY></HTML>";
+                rules.loadData(shotput_rules,"text/html", "UTF-8");
 //                studentOneImage.setImageResource(R.drawable.ruchir_ath);
 //                studentTwoImage.setImageResource(R.drawable.aman_sharma_ath);
 //                facultyImage.setImageResource(R.drawable.virendra_verma);
 //                facultyImage2.setImageResource(R.drawable.shafali_bhakshi);
-//
-//                type.setText("None");
-//                studentCoordinatorThree.setVisibility(View.GONE);
-//                venue.setText("Outdoor-FOOTBALL COURT");
-//
-//            }
-//            break;
+
+                type.setText("None");
+                studentCoordinatorThree.setVisibility(View.GONE);
+                venue.setText("Outdoor-FOOTBALL COURT");
+
+            }
+            break;
 
             case "Kabaddi": {
                 title.setText(data);
